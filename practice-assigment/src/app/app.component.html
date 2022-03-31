@@ -1,0 +1,3 @@
+<app-game-control (numberEmitter)="numberEmitterFired($event)"></app-game-control>
+<app-even *ngFor="let even of evenNumber " [number] = "even">{{even}}</app-even>
+<app-odd *ngFor="let odd of oddNumber " [number] = "odd">{{odd}}</app-odd>

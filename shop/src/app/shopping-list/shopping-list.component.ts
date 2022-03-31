@@ -8,6 +8,9 @@ import {Ingredient} from "../shared/ingredient.model";
 })
 export class ShoppingListComponent implements OnInit {
 
+
+  name = "max";
+
   ingredients: Ingredient[] = [
     new Ingredient('apples', 5),
     new Ingredient('tomatos', 10)
